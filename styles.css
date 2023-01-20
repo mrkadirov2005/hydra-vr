@@ -2,13 +2,18 @@
   padding: 0;
   margin: 0;
 }
+html{
+  width: 100%;
+  height: 100%;
+}
 body {
   box-sizing: border-box;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #211e2e;
   padding: 20px 84px;
   max-width: 1500px;
+  
 }
 header {
   display: flex;
@@ -38,6 +43,12 @@ main {
 .hydra-word-wrapper img {
   height: 46px;
 }
+.pie-bar {
+  display: none;
+}
+li {
+  text-transform: uppercase;
+}
 
 .links-buttons-wrapper {
   display: flex;
@@ -60,6 +71,9 @@ header ul li {
   padding: 5px 10px;
 
   font-size: 15px;
+}
+.nav-bar-ul .button {
+  display: none;
 }
 .buttons-wrapper {
   display: flex;

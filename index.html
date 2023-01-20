@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script defer src="main.js"></script>
     <title>Hydro-link</title>
   </head>
   <body>
@@ -20,20 +22,37 @@
         </div>
         <!-- <h1 class="hydra-logo-text">hydra</h1> -->
       </div>
-      <ul>
+      <ul id="nav_bar" class="nav-bar-ul">
         <li>about</li>
         <li>services</li>
         <li>technologies</li>
         <li>how to</li>
+        <li class="button" id="button">contact us</li>
+        <li class="button" id="button">join us</li>
       </ul>
       <div class="buttons-wrapper">
         <div class="button" id="button">contact us</div>
         <div class="button" id="button">join us</div>
       </div>
+      <img
+        id="pie-select"
+        class="pie-bar"
+        src="/photo_2023-01-06_09-18-10.jpg"
+        alt=""
+      />
     </header>
 
     <main>
       <section class="hero">
+        <div class="image-container px-900px">
+          <img src="/img/Rectangle-4.png" class="image-absolute" alt="" />
+          <img
+            class="image-first"
+            src="/img/Mask-group.png"
+            alt="image of mask group"
+            srcset=" /img/Mask-group.png 1x /img/Mask-group@2x.png 2x "
+          />
+        </div>
         <div class="text-container">
           <h1>
             <span>Dive</span>
@@ -50,7 +69,7 @@
             <img src="/img/shape.svg" alt="arrow shape describing next" />
           </div>
         </div>
-        <div class="image-container">
+        <div class="image-container px-900x">
           <img src="/img/Rectangle-4.png" class="image-absolute" alt="" />
           <img
             class="image-first"
@@ -63,7 +82,12 @@
 
       <!-- visit-section -->
       <div class="visit-section">
-        <div class="visit-elements">
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
+        <div class="visit-elements one-of-visit">
           <img src="/icons/Location-Icon.svg" alt="" />
           <div>
             <p class="type-of-visit">Pay Us a Visit</p>
@@ -72,7 +96,7 @@
             >
           </div>
         </div>
-        <div class="visit-elements">
+        <div class="visit-elements two-of-visit">
           <img src="/icons/shape.png" alt="" />
           <div>
             <p class="type-of-visit">Give Us a Call</p>
@@ -80,13 +104,18 @@
           </div>
         </div>
 
-        <div class="visit-elements">
+        <div class="visit-elements three-of-visit">
           <img src="/icons/shape.svg" alt="" />
           <div>
             <p class="type-of-visit">Send Us a Message</p>
             <span class="info-of-visit">Contact@HydraVTech.com</span>
           </div>
         </div>
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
       </div>
 
       <div class="hydra-vr-section">
@@ -152,7 +181,12 @@
       </div>
 
       <div class="simulation-part">
-        <div class="cards">
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
+        <div class="cards first-two">
           <img src="/img/Mask group (2).png" alt="image of hydra" />
           <h1>simulation</h1>
           <p>
@@ -162,7 +196,7 @@
           <div class="button">Try it now</div>
         </div>
 
-        <div class="cards">
+        <div class="cards first-two">
           <img src=" /img/Mask group (4).png" alt="image of hydra" />
           <h1>education</h1>
           <p>
@@ -172,7 +206,7 @@
           <div class="button">Try it now</div>
         </div>
 
-        <div class="cards">
+        <div class="cards second-two ">
           <img src="/img/Mask group (3).png " alt="image of hydra" />
           <h1>self-care</h1>
           <p>
@@ -182,7 +216,7 @@
           <div class="button">Try it now</div>
         </div>
 
-        <div class="cards">
+        <div class="cards second-two mobile">
           <img src="/img/image-two.png" alt="image of hydra" />
           <h1>outdoor</h1>
           <p>
@@ -191,6 +225,11 @@
           </p>
           <div class="button">Try it now</div>
         </div>
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
       </div>
 
       <div class="technologies-and-hardware-section">
@@ -241,7 +280,12 @@
       <!-- flex-styles -->
 
       <ul class="counter-flex">
-        <li>
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
+        <li class="first-two-counters  mobile-counter">
           <div class="top-part">
             <img src="/img/one/01-1.png" alt="" />
             <h1>01</h1>
@@ -251,7 +295,7 @@
             <h1>3D Conception & Design</h1>
           </div>
         </li>
-        <li>
+        <li class="first-two-counters">
           <div class="top-part">
             <img src="/img/one/01-1.png" alt="" />
             <h1>02</h1>
@@ -261,7 +305,7 @@
             <h1>Interaction Design</h1>
           </div>
         </li>
-        <li>
+        <li class="second-two-counters">
           <div class="top-part">
             <img src="/img/one/01-1.png" alt="" />
             <h1>03</h1>
@@ -271,7 +315,7 @@
             <h1>VR World User Testing</h1>
           </div>
         </li>
-        <li>
+        <li class="second-two-counters">
           <div class="top-part">
             <img src="/img/one/01-1.png" alt="" />
             <h1>04</h1>
@@ -281,6 +325,11 @@
             <h1>Hydra VR Deploy</h1>
           </div>
         </li>
+        <img
+          class="icon-vectors-of-visit-section"
+          src="/icons/right-arrow-shortcut.svg"
+          alt=""
+        />
       </ul>
 
       <form action="" class="form" id="form">
@@ -326,12 +375,18 @@
         <div class="submit button">send to hydra</div>
       </form>
     </main>
+
+    <!-- footer -->
     <footer>
       <div class="top-part-of-footer">
         <ul>
           <img class="logo" src="/img/Frame.svg" alt="" />
         </ul>
-        <img src="/footer-icons/footer-vector.svg" alt="" />
+        <img
+          class="footer-vertical-vector"
+          src="/footer-icons/footer-vector.svg"
+          alt=""
+        />
         <ul class="footer-links-main">
           <li>about</li>
           <li>services</li>
@@ -339,7 +394,11 @@
           <li>how to</li>
           <li>join hydra</li>
         </ul>
-        <img src="/footer-icons/footer-vector.svg" alt="" />
+        <img
+          class="footer-vertical-vector"
+          src="/footer-icons/footer-vector.svg"
+          alt=""
+        />
 
         <ul class="footer-section-two">
           <li>F.A.Qs</li>
@@ -347,7 +406,11 @@
           <li>conditions</li>
           <li>licenses</li>
         </ul>
-        <img src="/footer-icons/footer-vector.svg" alt="" />
+        <img
+          class="footer-vertical-vector"
+          src="/footer-icons/footer-vector.svg"
+          alt=""
+        />
 
         <ul class="last-child">
           <h1>socialize with hydra</h1>

@@ -1,0 +1,353 @@
+.sticky-nav {
+  display: flex !important;
+}
+@media (max-width: 1000px) {
+  body {
+    /* max-width: 1000px; */
+    height: 100%;
+  }
+  header {
+    position: relative;
+  }
+
+  .nav-bar-ul {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(7, 5, 34);
+    top: 100%;
+    left: 50%;
+    padding: 20px;
+    z-index: 200;
+    border-radius: 30px;
+  }
+  .nav-bar-ul li {
+    width: 90%;
+    background-color: rgb(62, 60, 71);
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons-wrapper {
+    display: none;
+  }
+  .nav-bar-ul .button {
+    display: flex;
+    width: 85%;
+  }
+  .buttons-wrapper .button:first-child {
+    margin-right: 20px;
+  }
+  .pie-bar {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.px-900px {
+  display: none;
+}
+.icon-vectors-of-visit-section {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+
+  html{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body {
+    padding: 25px;
+    /* background-color: red; */
+    margin-left: 100px;
+    margin-right: 0;
+    width: 900px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero .image-container {
+    margin-bottom: 10%;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .text-container p {
+    font-size: 25px;
+    line-height: 43px;
+  }
+  .px-900px {
+    display: block;
+  }
+  .px-900x {
+    display: none;
+  }
+  .visit-elements {
+    width: 70%;
+    justify-content: space-between;
+  }
+  .visit-elements::after {
+    content: "" !important;
+  }
+  .visit-section .two-of-visit,
+  .three-of-visit {
+    display: none;
+  }
+  .icon-vectors-of-visit-section {
+    display: flex;
+  }
+  .why-hydra {
+    flex-direction: column;
+    width: 100%;
+  }
+  .why-hydra div {
+    width: 90%;
+  }
+  .why-hydra p {
+    font-size: 30px;
+    width: 90%;
+  }
+  .why-hydra div:first-child {
+    margin-bottom: 50px;
+  }
+  .hydra-vr-section {
+    flex-direction: column;
+  }
+  .hydra-vr-section .title-container {
+    margin-bottom: 70px;
+  }
+  .text-container p {
+    padding: 30px;
+    font-size: 30px;
+  }
+  .text-container .button {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 70px;
+  }
+  .info-of-about-hydra-section {
+    margin-bottom: 70px;
+  }
+  /* simulation section cards */
+  .simulation-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .simulation-part .cards {
+    width: 30%;
+    height: auto;
+  }
+  .simulation-part .first-two {
+    display: none;
+  }
+  .technologies-and-hardware-section {
+    margin-bottom: 80px;
+    width: 100%;
+  }
+  .games {
+    flex-wrap: wrap;
+  }
+  .games .card-games {
+    /* border: 1px solid grey; */
+    width: 40%;
+  }
+  ul .card-games:nth-child(4) {
+    display: block;
+  }
+  .second-two-counters {
+    display: none !important;
+  }
+  .left-form input {
+    margin-right: 25px;
+  }
+  .right-form {
+    margin-left: 25px;
+  }
+  .top-part-of-footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .top-part-of-footer ul::after {
+    content: "";
+  }
+  .top-part-of-footer ul {
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 10px;
+  }
+  .top-part-of-footer ul img{
+    width: 220px;
+    height: 220px;
+  }
+    .top-part-of-footer ul h1{
+      font-size: 45px;;
+    }
+
+  .footer-vertical-vector {
+    display: none;
+  }
+  .eclipse-five {
+    top: 5460px;
+    left: 46.5%;
+  }
+  .eclipse-six {
+    top: 5445px;
+    left: 350px;
+    left: 45%;
+  }
+  .small-down-arrow {
+    top: 5468px;
+    /* left: 370px; */
+    left: 46.5%;
+  }
+  .hero{
+    padding: 50px;
+  }
+  .hydra-section-title img{
+    margin: 20px;
+  }
+  .text-container{
+padding: 20px;
+  }
+  .why-hydra{
+padding: 20px;
+
+  }
+  .top-part-of-footer ul{
+    margin-bottom: 10px;
+  }
+  .top-part-of-footer ul li{
+font-size: 11px;
+  }
+
+}
+
+@media(max-width:600px){
+  body{
+    box-sizing: content-box;
+    max-width: 600px !important;
+    width: 100%;
+  }
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 0px 50px; */
+  }
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper .button{
+    margin: 0;
+  }
+  .wrapper img{
+    display: none;
+  }
+  .about-hydra-vr{
+    text-align: center;
+    /* justify-content: center; */
+  }
+ .cards{
+  display: none;
+ }
+ .mobile{
+  width: 60% !important;
+  display: flex;
+  
+ }
+ .mobile p{
+  font-size: 25px;
+ }
+  
+  .mobile h1{
+    font-size: 35px;
+  }
+
+.counter-flex li {
+  display: none;
+}
+.counter-flex li:first-child{
+  display: flex !important;
+}
+.mobile-counter{
+  display: flex !important;
+}
+.personal-info-wrapper{
+  flex-direction: column;
+}
+.top-part-of-footer ul {
+  display: none;
+
+}
+
+
+
+.top-part-of-footer ul:first-child{
+  display: flex;
+}
+.top-part-of-footer ul:last-child{
+  display: flex;
+}
+.games .card-games{
+  display: none !important;
+}
+.games .card-games:first-child{
+  display: flex !important;
+
+}
+form{
+  padding: 10px 25px !important;
+  align-items: center;
+  justify-content: center !important;
+  width: 100% !important;
+}
+.left-form{
+  width: 100% !important;
+  padding: 0px 20px;
+}
+.left-form input{
+    width: 80% !important;
+  margin: 10px 0px !important;
+}
+.right-form{
+  width: 100% !important;
+  padding: 0px 20px;
+  margin: 0;
+}
+.right-form input{
+    width: 80% !important;
+  margin: 10px 0px !important;
+}
+
+#subject, #textarea{
+  width: 80% !important;
+  font-size: 15px !important;
+ 
+ }
+
+
+}
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
